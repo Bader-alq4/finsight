@@ -4,7 +4,6 @@
 # the GPT-4o-mini response back via Server-Sent Events in three phases:
 # sources (retrieved chunks) -> tokens (answer words) -> done (latency).
 
-
 from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
